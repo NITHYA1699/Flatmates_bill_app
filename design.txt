@@ -1,0 +1,22 @@
+Title: Flatmates Bill
+
+Description: An app that gets input the amount of a bill for a period and the days taht each of te flatmates stayed in te ouse for that perios.
+and returns how much each flatmate has to pay.It alseo generates a PDF report stating the names of the flatmares,period,amount to be paid.
+
+Objects:
+
+    Bill:
+        amount,period,
+    Flatmates:
+        name
+        days_stayed
+        pays(bill)
+     PdfReport:
+        filename
+        generate(f1,f2,bill)
+
+
+
+
+
+
